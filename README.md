@@ -27,6 +27,7 @@ void headerSet(const string name,const string value);
 void headerDone();
 
 string Int2String(int number);
+int String2Int(string value);
 
 void stringSet(string source,const char* input);
 int stringLength(string string);
