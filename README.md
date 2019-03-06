@@ -9,7 +9,7 @@ Which is still being developed and rebuilt.
 
 ### First version 0.1
 
-```
+```c
 int main(int argc, char *argv[]);
 void httpSet(int code);
 
@@ -24,5 +24,6 @@ void headerDone();
 
 void stringSet(char *source,const char* input);
 int stringLength(const char *string);
+char *stringReverse(char *string, int length);
 int stringCompare(const char *string1,const char *string2);
 ```
